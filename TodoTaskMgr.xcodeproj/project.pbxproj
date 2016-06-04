@@ -13,6 +13,10 @@
 		257F72501D02C79100D5C675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257F724E1D02C79100D5C675 /* Main.storyboard */; };
 		257F72521D02C79100D5C675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257F72511D02C79100D5C675 /* Assets.xcassets */; };
 		257F72551D02C79100D5C675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257F72531D02C79100D5C675 /* LaunchScreen.storyboard */; };
+		25CBDB821D02D2C6007AAAEF /* RHTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CBDB7D1D02D2C6007AAAEF /* RHTask.m */; };
+		25CBDB831D02D2C6007AAAEF /* RHAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CBDB801D02D2C6007AAAEF /* RHAddTaskViewController.m */; };
+		25CBDB841D02D2C6007AAAEF /* RHTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CBDB811D02D2C6007AAAEF /* RHTaskListViewController.m */; };
+		25CBDB871D02DB69007AAAEF /* RHEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CBDB861D02DB69007AAAEF /* RHEditTaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		257F72511D02C79100D5C675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		257F72541D02C79100D5C675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		257F72561D02C79100D5C675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25CBDB7C1D02D2C6007AAAEF /* RHTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RHTask.h; path = TodoTaskMgr/RHTask.h; sourceTree = "<group>"; };
+		25CBDB7D1D02D2C6007AAAEF /* RHTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RHTask.m; path = TodoTaskMgr/RHTask.m; sourceTree = "<group>"; };
+		25CBDB7E1D02D2C6007AAAEF /* RHTaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RHTaskListViewController.h; path = TodoTaskMgr/RHTaskListViewController.h; sourceTree = "<group>"; };
+		25CBDB7F1D02D2C6007AAAEF /* RHAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RHAddTaskViewController.h; path = TodoTaskMgr/RHAddTaskViewController.h; sourceTree = "<group>"; };
+		25CBDB801D02D2C6007AAAEF /* RHAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RHAddTaskViewController.m; path = TodoTaskMgr/RHAddTaskViewController.m; sourceTree = "<group>"; };
+		25CBDB811D02D2C6007AAAEF /* RHTaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RHTaskListViewController.m; path = TodoTaskMgr/RHTaskListViewController.m; sourceTree = "<group>"; };
+		25CBDB851D02DB69007AAAEF /* RHEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHEditTaskViewController.h; sourceTree = "<group>"; };
+		25CBDB861D02DB69007AAAEF /* RHEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHEditTaskViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,14 @@
 		257F72391D02C79100D5C675 = {
 			isa = PBXGroup;
 			children = (
+				25CBDB851D02DB69007AAAEF /* RHEditTaskViewController.h */,
+				25CBDB861D02DB69007AAAEF /* RHEditTaskViewController.m */,
+				25CBDB7C1D02D2C6007AAAEF /* RHTask.h */,
+				25CBDB7D1D02D2C6007AAAEF /* RHTask.m */,
+				25CBDB7E1D02D2C6007AAAEF /* RHTaskListViewController.h */,
+				25CBDB7F1D02D2C6007AAAEF /* RHAddTaskViewController.h */,
+				25CBDB801D02D2C6007AAAEF /* RHAddTaskViewController.m */,
+				25CBDB811D02D2C6007AAAEF /* RHTaskListViewController.m */,
 				257F72441D02C79100D5C675 /* TodoTaskMgr */,
 				257F72431D02C79100D5C675 /* Products */,
 			);
@@ -149,8 +169,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25CBDB821D02D2C6007AAAEF /* RHTask.m in Sources */,
+				25CBDB841D02D2C6007AAAEF /* RHTaskListViewController.m in Sources */,
+				25CBDB871D02DB69007AAAEF /* RHEditTaskViewController.m in Sources */,
 				257F724D1D02C79100D5C675 /* ViewController.m in Sources */,
 				257F724A1D02C79100D5C675 /* AppDelegate.m in Sources */,
+				25CBDB831D02D2C6007AAAEF /* RHAddTaskViewController.m in Sources */,
 				257F72471D02C79100D5C675 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +291,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yangsoftware.TodoTaskMgr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -278,6 +303,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yangsoftware.TodoTaskMgr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -300,6 +326,7 @@
 				257F725B1D02C79100D5C675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
